@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.9)
+project(cppJson)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_BUILD_TYPE "Debug")
+include_directories(./include)
+aux_source_directory(./src SOURCE_FILES)
+add_executable(App ${SOURCE_FILES} main.cpp)
