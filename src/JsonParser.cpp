@@ -78,7 +78,7 @@ namespace json {
                 isFloat = true;
                 continue;
             }
-            if (!std::isdigit(src[endpos]) || src[endpos] != '-') {
+            if (!std::isdigit(src[endpos]) && src[endpos] != '-') {
                 break;
             }
         }
