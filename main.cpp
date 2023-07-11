@@ -29,7 +29,7 @@ int main() {
             {
                 "one": true,
                 "two": {
-                    "two-one": 1.3e9,
+                    "two-one": -1.3e9,
                     "two-two": null,
                     "two-three": "hello\t\\"cpp\\""
                 },
